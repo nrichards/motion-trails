@@ -30,17 +30,17 @@ func _process(delta):
 		appendPoint()
 		oldPos = get_global_transform().origin
 	
-	var i = 0
+	var p = 0
 	var max_points = points.size()
-	while i < max_points:
-		lifePoints[i] += delta
-		if lifePoints[i] > lifespan:
-			removePoint(i)
-			i -= 1
-			if (i < 0): i = 0
+	while p < max_points:
+		lifePoints[p] += delta
+		if lifePoints[p] > lifespan:
+			removePoint(p)
+			p -= 1
+			if (p < 0): p = 0
 		
 		max_points = points.size()
-		i += 1
+		p += 1
 	
 	clear()
 	
