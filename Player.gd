@@ -1,4 +1,4 @@
-extends Spatial
+extends Node3D
 
 var speed = 5
 var rotSpeed = 2
