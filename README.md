@@ -5,6 +5,10 @@ A simple implementation of a motion trail renderer (also known as ribbon trails)
 1. Unzip the contents into a new folder. This folder contains a demo project, and if it is not needed, the `MotionTrail` subfolder can be copied directly into an existing/new project.
 2. Simply drag and drop the `MotionTrail.tscn` scene onto a parent scene (such as an object in motion), and you should be all set!
 
+## Demo scene
+
+- Use `WASD` and `Space` to control movement
+
 ![Demonstration](https://raw.githubusercontent.com/dbp8890/motion-trails/master/trailrenderer.gif)
 
 ## Parameters
