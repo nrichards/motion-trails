@@ -22,6 +22,9 @@ var lifePoints = []
 var oldPos
 
 func _ready():
+	if mesh == null:
+		mesh = ImmediateMesh.new()
+		
 	oldPos = get_global_transform().origin
 
 func _process(delta):

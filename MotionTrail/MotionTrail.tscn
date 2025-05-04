@@ -1,11 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://bgloefkv2aq3l"]
+[gd_scene load_steps=3 format=3 uid="uid://bgloefkv2aq3l"]
 
 [ext_resource type="Material" uid="uid://dejpo36fuyitq" path="res://MotionTrail/trailmaterial.tres" id="1_rsbao"]
 [ext_resource type="Script" uid="uid://dvagnvio0jifd" path="res://MotionTrail/MotionTrail.gd" id="2"]
 
-[sub_resource type="ImmediateMesh" id="ImmediateMesh_rsbao"]
-
 [node name="MotionTrail" type="MeshInstance3D"]
 material_override = ExtResource("1_rsbao")
-mesh = SubResource("ImmediateMesh_rsbao")
 script = ExtResource("2")
